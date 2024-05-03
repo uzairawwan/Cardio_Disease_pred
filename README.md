@@ -39,7 +39,7 @@ To perform the prediction, we have chosen three models:
 
 3. AdaBoost
 
-### Gaussian Naive Bayes( Ifunanya Ezeumeh)
+### Gaussian Naive Bayes
 The dataset was preprocessed using the steps above. 
 
 All relevant libraries and modules were imported.
@@ -62,7 +62,7 @@ Precision: 75.5%
 
 Recall: 70.7%
 
-### Support Vector Machine (Sifat Naseem)
+### Support Vector Machine 
 
 After all the preprocessing of data as explained above, I used the support Vector Machine classifier (SVM) on the dataset to make the prediction. I used Numpy and pandas to load the data then I split it into the training and test sets. For tuning of hyperparameters, I used the radial basis function (RBF) kernel as the given dataset is non-linear, and for regularization, I have used parameter c = 5. I tested the model with the c in the range of 1 to 5 and got the best performance with the c value as 5. After training the model, I evaluated it on the test data and finally used the trained model to make the prediction on new data. 
 
@@ -75,7 +75,7 @@ Precision: 77%
 Recall: 58%
 
 
-### AdaBoost (Kimaya Havle)
+### AdaBoost 
 
 We have trained the dataset using the AdaBoost classifier, a class of ensemble machine learning algorithms, using the SKLearn Package.
 We have used Pandas to load the preprocessed dataset and split it into training and testing data, where 75% is chosen for training and 25% for testing.

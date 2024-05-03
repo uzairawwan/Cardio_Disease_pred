@@ -118,9 +118,3 @@ Pandas
 Seasborn
 
 Matplotlib
-
-
-## Collaborators
-- Sifat Naseem
-- Ifunanya Ezeumeh
-- Kimaya Havle
